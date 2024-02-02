@@ -9,7 +9,7 @@ const NavbarContainer = styled.div`
 `;
 
 const Title = styled.div`
-  font-family: Stem;
+  font-family:'Stem', sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 32px;
@@ -19,7 +19,7 @@ const Title = styled.div`
 `;
 
 const ForMe = styled.ul`
-  font-family: Stem;
+  font-family:'Stem', sans-serif;
   font-style:normal;
   font-weight: 500;
   font-size: 13px;
@@ -42,7 +42,7 @@ const Button = styled.button`
   border-radius: 6px;
   border: none;
   padding: 12px 24px 12px 24px;
-  font-family: Stem;
+  font-family:'Stem', sans-serif;
   font-size: 15px;
   font-weight: 500;
   line-height: 20px;
@@ -53,7 +53,7 @@ const Contacts = styled.div`
   display: flex;
   flex-direction: column;
 
-  font-family: Stem;
+  font-family:'Stem', sans-serif;
   
   & p {
     font-weight: 700;

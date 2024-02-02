@@ -22,7 +22,7 @@ const TextBlock = styled.div`
 `;
 
 const Heading = styled.h1`
-  font-family: Stem;
+  font-family: 'Stem', sans-serif;
   font-weight: 700;
   font-size: 64px;
   line-height: 68px;
@@ -33,7 +33,7 @@ const Heading = styled.h1`
 const Paragraph = styled.p`
   margin-bottom: 20px;
   color: #ffffffcc;
-  font-family: Stem;
+  font-family:'Stem', sans-serif;
   font-weight: 500;
   font-size: 24px;
   line-height: 31.2px;
@@ -65,6 +65,8 @@ const SecondButton = styled(Button)`
 
 `;
 
+
+
 const Header = () => {
   return (
     <HeaderContainer>
@@ -84,6 +86,7 @@ const Header = () => {
       <SecondButton>Узнать подробности</SecondButton>
       </TextBlock>
 
+    
     </HeaderContainer>
   );
 };
